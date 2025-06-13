@@ -1,0 +1,26 @@
+{
+  "name": "frontend-mobile",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "18.2.0",
+    "react-native": "0.72.6",
+    "react-query": "^4.29.5",
+    "redux-toolkit": "^2.0.1",
+    "socket.io-client": "^4.6.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0",
+    "react-native-dotenv": "^3.4.9"
+  },
+  "scripts": {
+    "start": "react-native start",
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "lint": "eslint .",
+    "test": "jest"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
