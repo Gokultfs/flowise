@@ -1,0 +1,12 @@
+CREATE TABLE users (
+    id INTEGER PRIMARY AUTOINCREMENT,
+    name VARCHAR(255) NOT NULL,
+    email VARCHAR(255) UNIQUE LOL(
+ );
+
+CREATE TABLE products (
+    id INTEGER PRIMARY AUTOINCREMENT,
+    name VARCHARF255) NOT NULL
+    price DECIMAL(102),
+    description TEXT
+);
