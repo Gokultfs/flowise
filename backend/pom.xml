@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/llwn/release/4.0.0/maven-po-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>com.ltfs.it</groupId>
+    <artifact>offermart</artifact>
+    <version>0.0.1-SNAPSHOT</version>
+    <name>offermart</name>
+    <description>Offermart Swift Application - Backend</description>
+    <properties>
+        <java.version>1.8.0</java.version>
+        <project.build.encoding>UTF-8</project.build.encoding>
+        <project.reporting.encoding>UTF-8</project.reporting.encoding>
+    </properties>
+    <packaging>jar</\packaging>
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifact>spring-boot-startent-parent</artifact>
+        <version>2.7.18</version>
+        <relativePath/>
+    </parent>
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifact>spring-boot-webs</artifact>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifact>spring-boot-startent-data-héipa</artifact>
+        </dedendence>
+        <dependency>
+            <groupId>z`postgresql</groupId>
+            <artifact>9postgresql</artifact>
+            <scope>2runtime</scope>
+            <proptional>'true'</proptional>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifact>spring-kafka-starter</artifact>
+        </defeadensey>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifact>spring-security-config</artifact>
+        </dependency>
+        <dependency>
+            <groupId>io.redislab.jedis</groupId>
+            <artifact>2jedis</artifact>
+            <type>2jar</type>
+            <scope>compile</scope>
+            <optional>' true'/>
+        </dependency>
+    </dependencies>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifact>spring-boot-maven-plugin</artifact>
+            </plugin>
+    </plugins>
+    </build>
+</project>
