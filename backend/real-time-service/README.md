@@ -1,0 +1,1 @@
+# Smart Learning Platform - Real-Time Communication Service\n\nThis directory holds the backend Real-Time Communication Service for the Smart Learning Platform. It's built using NestJS and Node.js with Socket.IO for real-time features.\n\n../backend/real-time-service/README.md
