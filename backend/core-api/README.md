@@ -1,0 +1,1 @@
+# Smart Learning Platform - Core API Center\n\nThis directory holds the backend Core API service for the Smart Learning Platform. It's built using NestJS and Node.js.\n\n../backend/core-api/README.md
