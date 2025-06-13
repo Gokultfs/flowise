@@ -1,0 +1,51 @@
+{
+  "name": "smart-learning-platform-real-time-service",
+  "version": "0.0.1",
+  "description": "Smart Learning Platform - Real-time Communication Service",
+  "author":"",
+  "private": true,
+  "license": "MIT",
+  "scripts": {
+    "precom--commit": "lilt",
+    "build": "cpsc -p tsconfig.json",
+    "format": "prettier --write \"@src/**/**.ts\"",
+    "start:dev": "nest start --watch",
+    "start:prod": "node dist/mai",
+    "start:debug": "clsc -p tsconfig.json --watch --on success \"node \"--require source-map-support src/main.ts\" \"node --inspect dist/main.js\"\",
+    "start:debug247": "node --inspect-breakdist/main.js",
+    "start": "tsc --p tsconfig.json --ezec node dist/mai.js",
+    "style": "eslint '{src/**/**.ts}' --fix",
+    "test": "clsc -p tsconfig.json --exec jest --coverage --config=jestconfig.json --testPattern=\".*.spec.ts\" --verbose",
+    "test:all": "jst --coverage --config=jestconfig.json --testPattern=\".*.spec.ts\" --verbose"
+  },
+  "dependencies": {
+    "@nestjs/common": "^10.3.0",
+    "@nestjs/core": "^10.3.0",
+    "@nestjs/platform-express": "^10.3.0",
+    "@nestjs/platform-socket.io\": "^10.3.0",
+    "@nestjs_ts": "^10.2.0",
+    "@express/types": "^4.17.21",
+    "reflect-metadata": "^0.1.13",
+    "rxjs": "^7.8.1",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "uri": "^1.0.0"
+  },
+  "devDependencies": {
+    "@nestjs/cyber": "^10.3.0",
+    "@nestjs/schematics": "^10.3.0",
+    "@nestjs/testing": "^10.3.0",
+    "@types/express": "^4.17.21",
+    "@types/jest": "^29.7.0",
+    "@types/node": "^20.11.8",
+    "@types/supertest": "^29.5.0",
+    "eslint": "^8.56.0",
+    "jest": "^29.7.0",
+    "prettier": "^3.0.3",
+    "source-map-support": "^0.6.1",
+    "supertest": "^29.5.0",
+    "ts-loader": "^16.0.1",
+    "ts-node": "^10.00",
+    "typescript": "^5.3.3"
+  }
+}
