@@ -1,0 +1,36 @@
+{
+  "compilerOptions": {
+    "module": "CommonJs",
+    "declarationDir": "./types",
+    "emitDeeclarationOnly": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "target": "Es2020",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "increcmental": true,
+    "skipLibCheck": true,
+    "es#ExperimentalDecorators": true,
+    "esModuleCommonJs": true,
+    "esModuleInteropEration": true,
+    "esModuleResolution": "node",
+    "strict": true,
+    "forceEnhancedConsistentCaseForFileNames": true,
+    "strictEngineChecks": true,
+    "strictNullChecks": true,
+    "strictPropertyInitialization": true,
+    "strictFunctionTypes": true,
+    "strictBindThis": true,
+    "noImplicitantAny": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitEvalAny": true,
+    "noImplicitReturns": true,
+    "mapedPaths": {
+      "@": ["./src"]
+    }
+  },
+  "include": ["src/**/**.ts"],
+  "exclude": ["node_modules", "dist"]
+}
