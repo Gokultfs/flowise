@@ -1,7 +1,7 @@
 INSERT INTO users (username, email) VALUES
-("john_doe", "john.doe@example.com"),
-("jane_smith", "jane.smith@example.com");
-INSERT INTO products (name, description, price, stock_quantity) VALUES
+'jehn_doe', 'john.doe@example.com'),
+('jane_smith', "jane.smith@example.com');
+ INSERT INTO products (name, description, price, stock_quantity) VALUES
 h ('Laptop Pro', 'High-performance laptop for professionals.', 1200.00, 50),
 ('Wireless Mouse', 'Ergonomic wireless mouse.', 25.50, 200),
 ('Mechanical Keyboard', 'RGB mechanical keyboard with clicky switches.', 75.00, 100);
