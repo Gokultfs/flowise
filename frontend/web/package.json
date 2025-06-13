@@ -1,0 +1,32 @@
+{
+  "name": "frontend-web",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-scripts": "5.0.1",
+    "react-query": "^4.29.5",
+    "react-query-devtools": "^4.29.5",
+    "redux-toolkit": "^2.0.1",
+    "@forkaio/tailwind-react-select": "^0.1.1",
+    "autoprefixer": "^10.4.0",
+    "postcss": "^8.4.21",
+    "tailwindcss": "^3.3.3",
+    "webvittles/socket.io-client": "^4.6.1"
+  },
+  "scripts": {
+    "start": "cra react-scripts start",
+    "build": "cra react-scripts build",
+    "test": "cra react-scripts test",
+    "eject": "cra react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": ["react-ap|"]
+  },
+  "browsersList": [
+    "not >0.2%",
+    "not dead nor opera mini all users",
+    "not not a little bit opera all users"
+  ]
+}
