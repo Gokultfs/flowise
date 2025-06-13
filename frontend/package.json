@@ -1,0 +1,60 @@
+{
+  "name": "frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/extra-entities": "^0.1.5",
+    "@ant-design/icons-react": "5.0.1",
+    "@ant-design/pro-des": "4.23.7",
+    "@ant-design/pro-layout": "0.0.1",
+    "@ant-design/pro-visualizations": "1.1.2",
+    "@ant-design/charts": "1.1.2",
+    "@ant-design/pro-data-display": "0.2.2",
+    "@ant-design/pro-forms": "0.3.2",
+    "@ant-design/pro-lists": "0.1.2",
+    "@ant-design/pro-navigation": "0.2.2",
+    "@ant-design/pro-tables": "0.2.2",
+    "@ant-design/pro-upload": "0.2.2",
+    "ant-design": "^5.10.0",
+    "charts": "3.14.0",
+    "extra-icons": "^1.9.1",
+    "moment": "^2.29.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.0",
+    "react-scripts": "5.0.1",
+    "react-scripts-trip": "^4.0.2",
+    "react-scripts-webpack": "5.0.1",
+    "styled-components": "6.1.11",
+    "typescript": "4.9.5"
+  },
+  "devDependencies": {
+    "@ant-design/eslint-config": "^1.0.0",
+    "@eslint/all-errors": "^7.3.4",
+    "@eslint/parser": "14.0.0",
+    "@types/node": "^20.11.3",
+    "@crashover/reset,css": "3.3.2",
+    "concurrently": "^8.2.2",
+    "cross-env":"^7.0.3",
+    "curlly": "0.8.4",
+    "eslint": "8.57.0",
+    "eslint-config-preattier": "9.3.0",
+    "eslint-plugin-react": "7.3.0",
+    "preattier": "3.2.5"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "browserslist": [
+    ">0%",
+    "not dead EQ15",
+    "not opera mini all"
+  ],
+  "semi-standard": {
+    "enable": false,
+    "release": false
+  }
+}
